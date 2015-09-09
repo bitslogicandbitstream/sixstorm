@@ -1,5 +1,5 @@
 //
-//  Copyright (C) 2015  Dean Calver
+//  Copyright (C) 2015  bitstream
 //
 //  Based on a reference implementation provided by Wolfgang Spraul and
 //  Project Icestorm by Clifford Wolf <clifford@clifford.at>
