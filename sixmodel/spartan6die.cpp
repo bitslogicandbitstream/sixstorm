@@ -24,15 +24,15 @@ IdCode IdCode_from_string( const std::string& str ) {
 std::string to_string( const MajorType mtype ) {
 	switch(mtype){
 		case MajorType::NULL_TYPE:		return "NULL_TYPE";
-		case MajorType::CLB_XM:	return "CLB_XM";
-		case MajorType::CLB_XL:	return "CLB_XL";
+		case MajorType::CLB_XM:			return "CLB_XM";
+		case MajorType::CLB_XL:			return "CLB_XL";
 		case MajorType::CLB_XM_FOLD:	return "CLB_XM_FOLD";
 		case MajorType::CLB_XL_FOLD:	return "CLB_XL_FOLD";
-		case MajorType::DSP:		return "DSP";
-		case MajorType::BRAM:		return "BRAM";
-		case MajorType::LTERM:		return "LTERM";
-		case MajorType::RTERM:		return "RTERM";
-		case MajorType::CENTER:	return "CENTER";
+		case MajorType::DSP:			return "DSP";
+		case MajorType::BRAM:			return "BRAM";
+		case MajorType::LTERM:			return "LTERM";
+		case MajorType::RTERM:			return "RTERM";
+		case MajorType::CENTER:			return "CENTER";
 	}
 }
 
